@@ -17,12 +17,14 @@
 
         <ImageButton
             android:id="@+id/settingsButton"
+            android:contentDescription="@string/desc"
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:src="@drawable/launcher_settings" />
 
         <ImageButton
             android:id="@+id/clockButton"
+            android:contentDescription="@string/desc"
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:src="@drawable/launcher_add" />
