@@ -16,12 +16,14 @@
         android:layout_centerHorizontal="true" >
 
         <ImageButton
+            android:contentDescription="@string/desc"
             android:id="@+id/settingsButton"
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:src="@drawable/launcher_settings" />
 
         <ImageButton
+            android:contentDescription="@string/desc"
             android:id="@+id/clockButton"
             android:layout_width="100dp"
             android:layout_height="100dp"
